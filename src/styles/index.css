@@ -10,3 +10,47 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.container-todo{
+    background-color: rgb(151, 229, 243);
+    border-radius: 20%;
+    padding: 5px 20px 20px;
+    margin: 20px;
+    width: 400px;
+}
+
+ul{
+	list-style: none;
+}
+
+input{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5%;
+}
+
+button {
+    font-size:15px;
+    font-family:Arial;
+    width:auto;
+    height:auto;
+    border-width:1px;
+    color:#777777;
+    border-color:#dcdcdc;
+    font-weight:bold;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    text-shadow:inset 0px 1px 0px #ffffff;
+    background:linear-gradient(#ededed, #dfdfdf);
+  }
+  
+  button:hover {
+    background: linear-gradient(#dfdfdf, #ededed);
+  }
+
+  .hiddenClass{
+    display: none;
+  }
+
+  .liClass{
+    margin: 10px;
+  }
